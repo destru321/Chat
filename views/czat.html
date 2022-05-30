@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czat-socket</title>
+    <script src="/libs/socket.io.min.js"></script>
+    <script src="/js/script.js" defer></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="logowanie" class="logowanie">
+        <input type="text" id="mess" class="mess">
+        <button type="button" id="sendBtn">Wyślij</button>
+    </div>
+    
+    <div id="czatowanie" class="invisible czatowanie">
+      <div id="czat" class="chat"></div>
+      <input type="text" id="text" class="mess">
+      <button type="button" id="sendText">Wyślij</button>
+      <div class="users">
+        <h2>Użytkownicy</h2>
+      </div>
+    </div>
+
+
+</body>
+</html>
